@@ -1,0 +1,71 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Comic Neue', cursive;
+	color: #ABC9FF;
+	font-size: 38px;
+}
+
+p, a {
+	font-family: 'Comic Neue', cursive;
+	color: #FF8B8B;
+	font-size: 22px;
+}
+
+a:hover {
+	color: black;
+}
+
+img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+li{
+	list-style: none;
+	font-size: 32px;
+	display: inline;
+	margin: 70px
+}
+
+ul{
+	padding: 0px;
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 6px;
+	margin: 8px;
+	padding: 16px;
+	text-align: center;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+/*Custom design*/
+
+/*classes*/
+
+.btn-orange{
+	background-color: orangered;
+	color: white;
+	padding: 12px 24px;
+	borderradius: 6px;
+}
+
+/*Id*/
+
+#btn-pink{
+	background-color: pink;
+}
+
+/Media queries */
+
+@media (max-widht:  900px) {
+.container{
+	background-color: blue;
+}
+}
